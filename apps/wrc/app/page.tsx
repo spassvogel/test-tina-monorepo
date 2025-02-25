@@ -33,7 +33,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>apps/docs/app/page.tsx</code>
+            <h1>THIS IS WRC?</h1>
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
