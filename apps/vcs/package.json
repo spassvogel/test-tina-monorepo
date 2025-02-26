@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next dev --turbopack --port 3001\"",
-    "build": "tinacms build && next build",
+    "build": "NODE_ENV=development && tinacms build && next build",
     "start": "next start",
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit"
