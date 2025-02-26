@@ -31,13 +31,9 @@ export default function Home() {
           height={38}
           priority
         />
-        <ol>
-          <li>
-            <h1>THIS IS VCS</h1>
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
+  
+        <h1>Hello from VCS application package</h1>
+ 
         <div className={styles.ctas}>
           <a
             className={styles.primary}
