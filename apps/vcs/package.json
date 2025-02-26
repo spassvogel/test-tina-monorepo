@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "TINA_PUBLIC_IS_LOCAL=true tinacms dev -c \"next dev --turbopack --port 3001\"",
-    "build": "NODE_ENV=development && tinacms build && next build",
+    "build": "tinacms build && next build",
     "start": "next start",
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit"
@@ -14,8 +14,7 @@
     "@repo/ui": "*",
     "next": "^15.1.6",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tinacms": "^2.7.1"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",

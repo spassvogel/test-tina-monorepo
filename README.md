@@ -1,3 +1,7 @@
+# Won't build the application package 'vcs' 😭
+
+`npx turbo run build --filter vcs`
+
 # Turborepo starter
 
 This Turborepo starter is maintained by the Turborepo core team.
